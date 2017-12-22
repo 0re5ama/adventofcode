@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/0re5ama/adventofcode#readme",
   "devDependencies": {
+    "eslint": "^4.13.1",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-node": "^5.2.1",
