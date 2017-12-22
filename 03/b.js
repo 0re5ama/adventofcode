@@ -3,18 +3,18 @@ var arr = [];
 var curr = 1;
 var count = 0;
 while( curr < n ) {
-	let next = getNext(count);
-	arr.push(curr);
-	curr ++;
-	count ++;
+    let next = getNext(count);
+    arr.push(curr);
+    curr ++;
+    count ++;
 }
 console.log(arr[0].poas);
 
 getNext = x => {
-	var neighbors = getneigh(x);
-}
+    var neighbors = getneigh(x);
+};
 
 getneigh = x => {
-	var ret = [];
-	if (x == 0) return null;
-}
+    var ret = [];
+    if (x == 0) return null;
+};
